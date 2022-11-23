@@ -39,8 +39,8 @@ public class FreeFlyCam_3D : MonoBehaviour
 
     [Header("Zoom Settings")]
     [SerializeField] [Min(0)] private float zoomSensitivity = 1f;
-    [SerializeField][Min(1)] private int maxZoomIn = 2;
-    [SerializeField][Min(1)] private int maxZoomOut = 179;
+    [SerializeField][Min(1)] private int maxZoomIn = 2; //Minimum value for FieldOfView
+    [SerializeField][Min(1)] private int maxZoomOut = 179; //Maximum value for FieldOfView
 
 
     void Start()
