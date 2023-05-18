@@ -4,7 +4,7 @@ Here you can find simple but effective tools, utils and other things like that I
 
 #### Complete, but not yet published:
 
-- 2D Character Controller
+- Basic 2D Character Controller
 
 - Dialogue System
 
